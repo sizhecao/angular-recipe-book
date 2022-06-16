@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  firebaseAPIKey: 'AIzaSyB0B_rz5S089z2amt7YIv0wX-LS-VHJvuI'
+  firebaseAPIKey: 'AIzaSyB0B_rz5S089z2amt7YIv0wX-LS-VHJvuI',
+  loginUrl:'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=',
+  signUpUrl: 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key='
 };
 
 /*
